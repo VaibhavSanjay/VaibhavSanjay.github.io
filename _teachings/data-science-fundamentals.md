@@ -1,13 +1,14 @@
 ---
 layout: course
-title: Data Science Fundamentals
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
-term: Spring
-location: Science Building, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+title: "16891: Multi-Robot Planning and Coordination"
+redirect: https://jiaoyangli.me/teaching/2026-spring-16891 # Replace with your target course URL
+description: The course provides a graduate-level introduction to the field of multi-robot planning and coordination from both AI and robotics perspectives. Topics for the course include multi-robot cooperative task planning, multi-robot path/motion planning, learning for coordination, coordinating robots under uncertainty, etc. The course will particularly focus on state-of-the-art Multi-Agent Path Finding algorithms that can coordinate hundreds of robots with rigorous theoretical guarantees. Current applications for these technologies will be highlighted, such as mobile robot coordination for warehouses and drone swarm control.
+instructor: Prof. Jiaoyang Li
+year: 2026
+term: Fall
+location: a
+time: a
+course_id: 16891
 schedule:
   - week: 1
     date: Feb 5
@@ -71,27 +72,3 @@ schedule:
 ---
 
 ## Course Overview
-
-This course provides a comprehensive introduction to data science principles and practices. Students will:
-
-- Learn the end-to-end data science workflow
-- Gain practical experience with data manipulation tools
-- Develop skills in data visualization and communication
-- Apply statistical methods to derive insights from data
-
-## Prerequisites
-
-- Basic programming knowledge (preferably in Python)
-- Introductory statistics
-- Comfort with basic algebra
-
-## Textbooks
-
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
-
-## Grading
-
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%

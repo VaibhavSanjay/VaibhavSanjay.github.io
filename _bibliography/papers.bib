@@ -3,6 +3,17 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{sanjay2027PUSH,
+  title = {Scalable Long-Horizon Planning with Staggered Updates for Lifelong MAPF},
+  author = {Sanjay, Vaibhav and Li, Jiaoyang},
+  booktitle = {Submission},
+  year = {2026},
+  abstract = {Lifelong Multi-Agent Path Finding (LMAPF) requires generating collision-free paths for large agent fleets under strict real-time constraints. Reactive frameworks such as PIBT and Enhanced PIBT (EPIBT) scale effortlessly to thousands of agents through rule-based, step-by-step coordination but suffer from severe temporal myopia, making them ineffective in scenarios where long-horizon reasoning is essential. RHCR plans windowed paths over multi-step horizons but incurs substantial planning overheads that hinder scalability. TP tackles both challenges by planning only subsets of agents at each timestep, yet its applicability is restricted to highly structured maps. To achieve long-horizon planning at scale across general maps, we propose Path Updates over Staggered Horizons (PUSH), a LMAPF planner capable of coordinating thousands of agents in under a second while planning over multi-step horizons. PUSH combines the key advantages of PIBT, RHCR, and TP. Like TP, PUSH reduces computational complexity by planning only a subset of agents at each timestep using staggered planning windows. Unlike TP, however, PUSH plans RHCR-style windowed paths in general maps without relying on restrictive map assumptions. To maintain high throughput in congested environments, PUSH further integrates EPIBT-inspired priority inheritance, backtracking, and anytime improvements into its windowed planning. Empirical evaluations across two realistic MAPF scenarios requiring long-horizon reasoning show that PUSH scales to the same massive agent loads as EPIBT (e.g., 10k agents) while achieving significantly higher system throughput than all baselines.},
+  pdf = {https://arxiv.org/pdf/2608.06702},
+  preview = {push_warehouse.gif},
+  selected = {true}
+}
+
 @inproceedings{sanjay2026MRRD,
   title = {Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments},
   author = {Sanjay, Vaibhav and Shaoul, Yorai and Li, Jiaoyang},
@@ -13,4 +24,29 @@
   pdf = {https://arxiv.org/pdf/2607.09911},
   preview = {mrrd_blender.gif},
   selected = {true}
+}
+
+@inproceedings{feng2024Illusion,
+  title = {3D Multiview Illusion with 2D Diffusion Priors},
+  author = {Feng, Yue and Sanjay, Vaibhav and Lutz, Spencer and AlBahar, Badour and Ge, Songwei and Huang, Jia-Bin},
+  year = {2024},
+  abstract = {Automatically generating multiview illusions is a compelling challenge, where a single piece of visual content offers distinct interpretations from different viewing perspectives. Traditional methods, such as shadow art and wire art, create interesting 3D illusions but are limited to simple visual outputs (i.e., figure-ground or line drawing), restricting their artistic expressiveness and practical versatility. Recent diffusion-based illusion generation methods can generate more intricate designs but are confined to 2D images. In this work, we present a simple yet effective approach for creating 3D multiview illusions based on user-provided text prompts or images. Our method leverages a pre-trained text-to-image diffusion model to optimize the textures and geometry of neural 3D representations through differentiable rendering. When viewed from multiple angles, this produces different interpretations. We develop several techniques to improve the quality of the generated 3D multiview illusions. We demonstrate the effectiveness of our approach through extensive experiments and showcase illusion generation with diverse 3D forms.},
+  bibtex_show = {true},
+  pdf = {https://arxiv.org/pdf/2412.09625},
+  preview = {campfire_butterfly.gif},
+  website = {https://3d-multiview-illusion.github.io},
+  selected = {false},
+  booktitle = {Submission},
+}
+
+@inproceedings{williams2023DyFOS,
+  title = {Where Am I Now? Dynamically Finding Optimal Sensor States to Minimize Localization Uncertainty for a Perception-Denied Rover},
+  author = {Williams, Troi and Chen, Po-Lun, and Bhogavilli, Sparsh and Sanjay, Vaibhav and Tokekar, Pratap},
+  year = {2023},
+  booktitle = {IEEE International Symposium on Multi-Robot & Multi-Agent Systems (MRS)},
+  abstract = {We present DyFOS, an active perception method that dynamically finds optimal states to minimize localization uncertainty while avoiding obstacles and occlusions. We consider the scenario where a perception-denied rover relies on position and uncertainty measurements from a viewer robot to localize itself along an obstacle-filled path. The position uncertainty from the viewer's sensor is a function of the states of the sensor itself, the rover, and the surrounding environment. To find an optimal sensor state that minimizes the rover's localization uncertainty, DyFOS uses a localization uncertainty prediction pipeline in an optimization search. Given numerous samples of the states mentioned above, the pipeline predicts the rover's localization uncertainty with the help of a trained, complex state-dependent sensor measurement model (a probabilistic neural network). Our pipeline also predicts occlusion and obstacle collision to remove undesirable viewer states and reduce unnecessary computations. We evaluate the proposed method numerically and in simulation. Our results show that DyFOS is faster than brute force yet performs on par. DyFOS also yielded lower localization uncertainties than faster random and heuristic-based searches.},
+  bibtex_show = {true},
+  pdf = {https://arxiv.org/pdf/2211.16721},
+  preview = {dyfos_sim.png},
+  selected = {false},
 }
