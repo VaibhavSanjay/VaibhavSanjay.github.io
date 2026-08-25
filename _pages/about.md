@@ -28,4 +28,4 @@ latest_posts:
 
 Hello! I'm a Master's student in the Robotics Institute at Carnegie Mellon University. I am advised by Professor [Jiaoyang Li](https://jiaoyangli.me), who I work with in the fields of multi-agent motion planning and coordination. Recently, my research efforts have mainly focused on problems related to integrating multi-agent planning solutions into human-shared environments.
 
-Before the start of my Master's, I completed my undergraduate degree in Computer Science at the University of Maryland, College Park. I was fortunate to work with Professor [Jia-Bin Huang](https://jbhuang0604.github.io) on general computer vision problems during this time. I have also previously taken internships at NIST, NASA JPL, and AWS.
+Before the start of my Master's, I obtained a double degree in Computer Science and Mathematics with a minor in Robotics and Autonomous Systems at the University of Maryland, College Park. I was fortunate to work with Professor [Jia-Bin Huang](https://jbhuang0604.github.io) on general computer vision problems during this time. I have also previously taken internships at NIST, NASA JPL, and AWS.
