@@ -14,6 +14,18 @@
   selected = {true}
 }
 
+@inproceedings{wen2026RoboFin3D,
+  title = {RoboFin3D: A Sim-to-Real Platform for Robotic Surface Finishing},
+  author = {Wen, Haowei and Li, Shangtao and Sanjay, Vaibhav and Huang, Philip and Li, Jiaoyang and Liu, Changliu},
+  booktitle = {IROS 2026 Workshop on Sim2Real and Classical Control: From Rigorous Theory to Data-Driven Robotics},
+  year = {2026},
+  abstract = {Grinding and sanding are fundamental processes in industrial robotic surface finishing. However, physical trials are expensive and consume workpieces, making reproducible experiments difficult. We present RoboFin3D, a sim-to-real platform built on Isaac Sim and the Newton physics engine, that provides physics-based grinding and sanding simulation for cheap and repeatable robotic surface finishing experiments. RoboFin3D utilizes a signed distance field (SDF) to model the changing geometry of the workpiece, enabling contact computation, live updates and rendering without an intermediate mesh. It additionally uses a separate surface field to model progressive surface appearance change during sanding. We also introduce WeldGen, a weld sampling module, to generate weld beads on 8,918 real-world workpiece meshes for providing diverse simulation assets. The simulation parameters are calibrated on real experimental results and our evaluation demonstrates our simulation’s fidelity against the real world. We also demonstrate that simulation-generated data can be used to improve the performance of perception models. Simulation-only fine-tuning of SAM2 improves IoU for segmentation of unsanded regions from 77.15% to 84.47%, while combined synthetic and real training reaches 97.41%.},
+  bibtex_show = {true},
+  pdf = {https://icontrol.ri.cmu.edu/assets/papers/RoboFin3D.pdf},
+  preview = {robofin3d-teaser.jpg},
+  selected = {true}
+}
+
 @inproceedings{sanjay2026MRRD,
   title = {Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments},
   author = {Sanjay, Vaibhav and Shaoul, Yorai and Li, Jiaoyang},
@@ -23,20 +35,23 @@
   bibtex_show = {true},
   pdf = {https://arxiv.org/pdf/2607.09911},
   preview = {mrrd_blender.gif},
+  website = {https://vaibhavsanjay.github.io/MRRD-Website/},
+  code = {https://github.com/VaibhavSanjay/mrrd},
+  reward = {Workshop on Social Robot Navigation Best Paper},
   selected = {true}
 }
 
 @inproceedings{feng2024Illusion,
   title = {3D Multiview Illusion with 2D Diffusion Priors},
   author = {Feng, Yue and Sanjay, Vaibhav and Lutz, Spencer and AlBahar, Badour and Ge, Songwei and Huang, Jia-Bin},
-  year = {2024},
+  year = {2026},
   abstract = {Automatically generating multiview illusions is a compelling challenge, where a single piece of visual content offers distinct interpretations from different viewing perspectives. Traditional methods, such as shadow art and wire art, create interesting 3D illusions but are limited to simple visual outputs (i.e., figure-ground or line drawing), restricting their artistic expressiveness and practical versatility. Recent diffusion-based illusion generation methods can generate more intricate designs but are confined to 2D images. In this work, we present a simple yet effective approach for creating 3D multiview illusions based on user-provided text prompts or images. Our method leverages a pre-trained text-to-image diffusion model to optimize the textures and geometry of neural 3D representations through differentiable rendering. When viewed from multiple angles, this produces different interpretations. We develop several techniques to improve the quality of the generated 3D multiview illusions. We demonstrate the effectiveness of our approach through extensive experiments and showcase illusion generation with diverse 3D forms.},
   bibtex_show = {true},
   pdf = {https://arxiv.org/pdf/2412.09625},
   preview = {campfire_butterfly.gif},
   website = {https://3d-multiview-illusion.github.io},
   selected = {false},
-  booktitle = {Submission},
+  booktitle = {SIGGRAPH Asia Technical Communications},
 }
 
 @inproceedings{williams2023DyFOS,
